@@ -1,0 +1,51 @@
+/* Services */
+.sv:hover {
+  background-color: yellow;
+}
+/* Teams */
+.upper {
+  padding-bottom: 10px;
+}
+.upper:hover {
+  background-color: rgb(97, 224, 38);
+}
+.lower {
+  padding: 10px 0 10px 0;
+}
+.lower:hover {
+  background-color: rgb(105, 137, 179);
+}
+/*Form  */
+.bg {
+  background: url(./formbg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 33rem;
+}
+.form-container {
+  border: 1px solid white;
+  padding: 20px 60px;
+  border-radius: 0px 60px 0px 60px;
+
+  margin-top: 10vh;
+  -webkit-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 4px 26px 11px rgba(0, 0, 0, 0.75);
+}
+.imgg {
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+.imgg:hover {
+  transform: scale(1.5);
+}
+.fg {
+  border-bottom: 1px solid rgb(33, 160, 111);
+}
+.fg input {
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(40, 231, 231);
+  font-size: 18px;
+}
